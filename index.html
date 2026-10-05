@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Metadatos para vista previa en WhatsApp -->
-      <meta property="og:title" content="¡Los 70 Años de Francisca! 🎂" />
-      <meta property="og:description" content="Acompáñanos a celebrar en familia este domingo 8 de Noviembre." />
-      <meta property="og:image" content="https://tu-link-desplegado.com/mama.jpeg" />
-      <meta property="og:type" content="website" />
     <title>Los 70 Años de Francisca 🎂</title>
     
-    <!-- Tipografías elegantes -->
+    <!-- Metaetiquetas para vista previa en WhatsApp y redes sociales -->
+    <meta property="og:title" content="¡Los 70 Años de Francisca! 🎂" />
+    <meta property="og:description" content="Acompáñanos a celebrar en familia este domingo 8 de Noviembre." />
+    <meta property="og:image" content="https://brendita92.github.io/Tarjeta-de-invitacion/mama.jpeg" />
+    <meta property="og:url" content="https://brendita92.github.io/Tarjeta-de-invitacion/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Tipografías elegantes de Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -388,7 +390,7 @@
             <!-- Foto de Mamá -->
             <div class="avatar-container">
                 <div class="avatar-ring">
-                    <img src="mama.jpg" alt="Francisca" class="avatar-img" onerror="this.style.display='none'; document.getElementById('avatar-fallback').style.display='flex';">
+                    <img src="mama.jpeg" alt="Francisca" class="avatar-img" onerror="this.style.display='none'; document.getElementById('avatar-fallback').style.display='flex';">
                     <div id="avatar-fallback" class="avatar-fallback">
                         <span>F</span>
                     </div>
@@ -601,7 +603,7 @@
                 text += `💬 *Mensaje:* "${mensaje}"\n`;
             }
 
-            // Cambia este número por tu número telefónico real para WhatsApp
+             // Cambia este número por tu número telefónico real para WhatsApp
             const telefonoOrganizadora = "5493777203373"; 
             const whatsappUrl = `https://wa.me/${telefonoOrganizadora}?text=${encodeURIComponent(text)}`;
 
